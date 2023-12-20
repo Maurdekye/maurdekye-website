@@ -1,6 +1,9 @@
 <script>
 	import portrait from '$lib/images/portrait.jpg';
 	import profile from '$lib/images/profile.png';
+	import WorkExperience from './WorkExperience.svelte';
+	import ToolExperience from './ToolExperience.svelte';
+	import PersonalProjects from './PersonalProjects.svelte';
 </script>
 
 <svelte:head>
@@ -26,12 +29,24 @@
 			or <img class="profile-icon" src={profile} alt="Maurdekye" />
 			<span class="bolded">Maurdekye</span>
 		</h1>
-		<h2 class="subtitle">(whichever you prefer)</h2>
-		<h1 class="title">Welcome to my website</h1>
+		<h2 class="anecdote">(whichever you prefer)</h2>
+		<h1 class="subtitle">I'm a Software Developer based out of Philadelphia, PA; welcome to my website</h1>
+		<h2 class="anecdote">(Sorry that it's kind of empty... i'm still working on it)</h2>
 	</div>
 
 	<hr class="rule" />
 
+	<div class="content">
+		<WorkExperience />
+		<div class="vrule"></div>
+		<ToolExperience />
+	</div>
+
+	<hr class="rule" />
+
+	<PersonalProjects />
+	
+	<hr class="rule" />
 
 </section>
 
@@ -79,24 +94,11 @@
 		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
 	}
 
-	.rule {
-		margin: 3em;
-		border: none;
-		width: 80vh;
-		height: 1px;
-		background-image: linear-gradient(
-			to right,
-			transparent,
-			rgb(31, 31, 31) 25%,
-			rgb(31, 31, 31) 75%,
-			transparent
-		);
-	}
-
 	.title-card {
 		display: flex;
 		flex-flow: column;
 		align-items: center;
+		width: 70%
 	}
 
 	.title {
@@ -106,8 +108,18 @@
 		margin: 0.1em;
 	}
 
-	.subtitle {
+	.anecdote {
 		font-size: 1.25em;
 		margin: 1.5em;
+	}
+
+	.spacer {
+		min-height: 5em;
+	}
+
+	.content {
+		display: flex;
+		flex-flow: row;
+		width: 90%;
 	}
 </style>

@@ -38,6 +38,7 @@
   "type": "module",
   "dependencies": {
     "aws-cdk": "^2.115.0",
+    "svelte-collapsible": "^0.3.0",
     "svelte-preprocess": "^5.1.3"
   }
 }
