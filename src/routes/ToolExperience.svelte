@@ -18,6 +18,7 @@
                 <li>C++</li>
                 <li>C</li>
                 <li>Haskell</li>
+                <li>Julia</li>
                 <li>Lua</li>
                 <li>SQL</li>
                 <li>F#</li>

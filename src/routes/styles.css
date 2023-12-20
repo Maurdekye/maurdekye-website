@@ -108,7 +108,9 @@ button:focus:not(:focus-visible) {
 .rule {
 	margin: 3em;
 	border: none;
-	width: 80vh;
+	max-width: 80vh;
+	width: 100%;
+	display: block;
 	height: 1px;
 	background-image: linear-gradient(
 		to right,

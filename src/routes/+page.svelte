@@ -36,16 +36,17 @@
 
 	<hr class="rule" />
 
-	<div class="content">
+	<div class="experience">
 		<WorkExperience />
-		<div class="vrule"></div>
+		<div class="vrule experience-separator-landscape"></div>
+		<div class="rule experience-separator-portrait"></div>
 		<ToolExperience />
 	</div>
 
 	<hr class="rule" />
 
 	<PersonalProjects />
-	
+
 	<hr class="rule" />
 
 </section>
@@ -117,9 +118,28 @@
 		min-height: 5em;
 	}
 
-	.content {
+	.experience {
 		display: flex;
 		flex-flow: row;
 		width: 90%;
+	}
+
+	.experience-separator-portrait {
+		display: none;
+	}
+
+	@media only screen and (max-width: 1000px) {
+		.experience {
+			flex-direction: column;
+		}
+
+		.experience-separator-landscape {
+			display: none;
+		}
+
+		.experience-separator-portrait {
+			display: block;
+		}
+
 	}
 </style>
