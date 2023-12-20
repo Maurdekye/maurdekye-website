@@ -10,8 +10,11 @@ export default {
   },
   stacks(app) {
     app.stack(function Site({ stack }) {
-      const site = new SvelteKitSite(stack, "site");
+      const site = new SvelteKitSite(stack, "site", {
+        customDomain: "maurdekye.com",
+      });
       stack.addOutputs({
+        Site: site.customDomainUrl || site.url,
         url: site.url,
       });
     });

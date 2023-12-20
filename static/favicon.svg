@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   id="svg2995"
+   version="1.1"
+   inkscape:version="1.2-dev (0853165, 2021-06-13)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="C:\Users\Nicholas\Desktop\bullshit\logo5.png"
+   inkscape:export-xdpi="179.95607"
+   inkscape:export-ydpi="179.95607"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2997">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath977">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle979"
+         cx="256"
+         cy="256"
+         r="256" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath981">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle983"
+         cx="256"
+         cy="256"
+         r="256" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath985">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle987"
+         cx="256"
+         cy="-192"
+         r="256" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath989">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle991"
+         cx="256"
+         cy="-192"
+         r="256" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath993">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle995"
+         cx="256"
+         cy="256"
+         r="256" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath997">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4.7;stop-color:#000000"
+         id="circle999"
+         cx="256"
+         cy="256"
+         r="256" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="57.275648"
+     inkscape:cy="210.36426"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     fit-margin-top="2.7755576e-017"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-page="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-global="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3003"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="10.24"
+       spacingy="10.24"
+       dotted="false"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3000">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,448)">
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="m 204.8,-396.8 h 256 v 256 L 307.2,12.8 h -256 v -256 z"
+       id="path3875"
+       inkscape:connector-curvature="0"
+       clip-path="url(#clipPath985)"
+       transform="matrix(1.25,0,0,1.25,-63.999999,47.999999)" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="M 102.4,409.6 H 204.8 L 409.6,204.8 V 102.4 H 307.2 L 102.4,307.2 Z"
+       id="path3906"
+       inkscape:connector-curvature="0"
+       transform="matrix(1.25,0,0,1.25,-63.999999,-512)"
+       sodipodi:nodetypes="ccccccc"
+       clip-path="url(#clipPath981)" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="M 133.12,378.88 V 296.96 L 296.96,133.12 h 81.92 v 81.92 L 215.04,378.88 Z"
+       id="path3912"
+       inkscape:connector-curvature="0"
+       transform="matrix(1.25,0,0,1.25,-63.999999,-512)"
+       sodipodi:nodetypes="ccccccc"
+       clip-path="url(#clipPath977)" />
+  </g>
+</svg>

@@ -1,19 +1,47 @@
 <script>
-	import Header from './Header.svelte';
 	import './styles.css';
+	import github from '$lib/images/github.svg';
+	import linkedin from '$lib/images/linkedin.svg';
 </script>
 
 <div class="app">
+	<header>
+		<div class="spacer"></div>
+		<a href="https://github.com/Maurdekye">
+			<img class="header-icon github" src={github} alt="github" />
+		</a>
+		<a href="https://www.linkedin.com/in/nicholas-colaprete-630983115/">
+			<img class="header-icon linkedin" src={linkedin} alt="linkedin" />
+		</a>
+	</header>
 	<main>
 		<slot />
 	</main>
 </div>
 
 <style>
+
+	header {
+		display: flex;
+		margin: 0.5em;
+	}
+
+	.spacer {
+		flex: 1;
+	}
+
+	.header-icon {
+		display: block;
+		width: 3em;
+		height: 3em;
+		background-color: #f6f3ff;
+		border-radius: 10%;
+		margin: 0.25em;
+	}
+
 	.app {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
 	}
 
 	main {
