@@ -6,14 +6,13 @@
             <ul class="languages-sublist item-list">
                 <li>Python</li>
                 <li>Javascript</li>
-                <li>C#</li>
                 <li>Rust</li>
-                <li>Java</li>
+                <li>C#</li>
                 <li>GLSL</li>
             </ul>
         </div>
         <div class="list-column">
-            <p class="section-header">Some Experience:</p>
+            <p class="section-header">Familiar:</p>
             <ul class="languages-sublist item-list">
                 <li>C++</li>
                 <li>C</li>
@@ -22,6 +21,7 @@
                 <li>Lua</li>
                 <li>SQL</li>
                 <li>F#</li>
+                <li>Java</li>
             </ul>
         </div>
     </div>
