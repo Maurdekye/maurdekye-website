@@ -3,6 +3,7 @@
 	import github from '$lib/images/github.svg';
 	import linkedin from '$lib/images/linkedin.svg';
 	import discord from '$lib/images/discord.svg';
+	import stack_exchange from '$lib/images/stack-exchange.svg';
 	import steam from '$lib/images/steam.svg';
 	import youtube from '$lib/images/youtube.svg';
 	import gmail from '$lib/images/gmail.svg';
@@ -15,6 +16,9 @@
     </a>
     <a class="icon-link" href="https://www.linkedin.com/in/nicholas-colaprete-630983115/">
         <img class="header-icon linkedin" src={linkedin} alt="linkedin" />
+    </a>
+    <a class="icon-link" href="https://stackexchange.com/users/2755435/maurdekye">
+        <img class="header-icon stack-exchange" src={stack_exchange} alt="stack-exchange" />
     </a>
     <a class="icon-link" href="mailto:ncolaprete@gmail.com">
         <img class="header-icon mail" src={gmail} alt="mail" />
@@ -47,8 +51,8 @@
 
 	.header-icon {
 		display: block;
-		width: min(3em, 11vw);
-		height: min(3em, 11vw);
+		width: min(3em, 9vw);
+		height: min(3em, 9vw);
 		background-color: #f6f3ff;
 		border-radius: 10%;
         margin: min(0.25em, 1vw);
