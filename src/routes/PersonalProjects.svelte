@@ -22,7 +22,7 @@
         <a class="project-link" href="https://github.com/Maurdekye/training-picker">Training Picker</a> - An extension for <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">AUTOMATIC1111's Stable Diffusion Webui</a> written in python + javascript that allows a user to parse a video, extract individual frames, crop, & save them with an intuitive and easy to use UI.
     </div>
     <div class="project-entry">
-        <a class="project-link" href="https://github.com/Maurdekye/KTaNE-Expert">Keep Talking and Nobody Explodes Export</a> - A utility written in Julia that someone acting as the bomb disposal expert in the game <a href="https://keeptalkinggame.com/">Keep Talking and Nobody Explodes</a> can use to quickly determine the solutions to various puzzles the bomb defuser might need to overcome.
+        <a class="project-link" href="https://github.com/Maurdekye/KTaNE-Expert">Keep Talking and Nobody Explodes Expert</a> - A utility written in Julia that someone acting as the bomb disposal expert in the game <a href="https://keeptalkinggame.com/">Keep Talking and Nobody Explodes</a> can use to quickly determine the solutions to various puzzles the bomb defuser might need to overcome.
     </div>
     <div class="project-entry">
         <a class="project-link" href="https://github.com/Maurdekye/ViveMocap">Vive Mocap</a> - A program written in C++ that allows one to capture motion information from a lighthouse-tracked steamvr controller and record it to a file, which may be used for arbitrary purposes, including animation or simulation.
@@ -36,8 +36,8 @@
     }
 
     .project-entry {
-        font-size: 2em;
-        padding: 1em;
+        font-size: min(2em, 5vw);
+        padding: min(1em, 5vw);
     }
 
     .project-link {

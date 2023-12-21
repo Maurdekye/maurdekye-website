@@ -106,10 +106,9 @@ button:focus:not(:focus-visible) {
 }
 
 .rule {
-	margin: 3em;
+	margin: 3em 0;
 	border: none;
-	max-width: 80vh;
-	width: 100%;
+	width: min(40em, 80vw);
 	display: block;
 	height: 1px;
 	background-image: linear-gradient(
@@ -125,6 +124,7 @@ button:focus:not(:focus-visible) {
 	margin: 3em;
 	border: none;
 	width: 1px;
+	max-width: 1px;
 	height: 80vh;
 	background-image: linear-gradient(
 		to bottom,
@@ -137,5 +137,5 @@ button:focus:not(:focus-visible) {
 
 .heading {
 	font-weight: 600;
-	margin-bottom: 0;
+	font-size: min(3em, 7vw);
 }

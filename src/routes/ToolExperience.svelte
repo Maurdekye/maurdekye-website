@@ -68,14 +68,14 @@
 <style>
 
 	.section-header {
-		font-size: 2em;
+		font-size: min(2em, 8vw);
 		margin: 0;
 	}
 
     .list-container {
         display: flex;
         flex-flow: row;
-        padding: 2em;
+        padding: min(2em, 10vw);
         padding-bottom: 0;
     }
 
@@ -83,11 +83,21 @@
         flex: 1;
     }
 
+    .item-list {
+        padding-left: min(2em, 2vw);
+    }
+
 	.item-list li {
-		font-size: 1.5em;
+		font-size: min(1.5em, 6vw);
 	}
 
 	section {
 		flex: 1;
 	}
+
+	@media only screen and (max-width: 600px) {
+        .list-container {
+            flex-flow: column;
+        }
+    }
 </style>

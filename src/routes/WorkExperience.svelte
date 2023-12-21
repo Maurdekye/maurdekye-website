@@ -81,13 +81,10 @@
 </section>
 
 <style>
-	.heading {
-		font-weight: 600;
-	}
 
     .unstability-link {
-        font-size: 2em;
-        margin: 1em;
+        font-size: min(2em, 4vw);
+        margin: min(1em, 10vw);
         margin-top: 0;
     }
 
@@ -99,13 +96,17 @@
 
     .job-entry {
         border: 1px solid #aaa;
-        padding: 1em;
-        margin: 0.5em;
+        padding: min(1em, 2vw);
+        margin: min(0.5em, 1vw);
         background-color: white;
     }
 
+    .tenure {
+        font-size: min(1.5em, 4vw);
+    }
+
 	.job-title {
-		font-size: 2em;
+		font-size: min(2em, 5vw);
 		font-style: italic;
         text-align: left;
 	}
@@ -114,7 +115,11 @@
 		flex: 1;
 	}
 
+    .job-responsibilities {
+        padding-left: min(2em, 20vw);
+    }
+
 	.job-responsibilities li {
-		font-size: 1.25em;
+		font-size: min(1.35em, 4vw);
 	}
 </style>
