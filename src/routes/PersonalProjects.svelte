@@ -1,6 +1,9 @@
 <section>
     <h1 class="heading">Personal Projects</h1>
     <div class="project-entry">
+        <a class="project-link" href="https://github.com/Maurdekye/big-int">BigInt</a> - An arbitrary base integer arithmetic library written in Rust. Sports efficient log(n) implementations of common mathematical operations on arbitrary precision integers of any base equal to or greater than 2, including addition, subtraction, multiplication, division, logarithm, exponentiation, and nth root.
+    </div>
+    <div class="project-entry">
         <a class="project-link" href="https://github.com/Maurdekye/codecrafters-bittorrent-rust">MaurdekyeBitTorrent</a> - A fully fledged, intelligently multithreaded commandline bittorrent client written in Rust, supporting UDP trackers, DHT peer discovery, and magnet links.
     </div>
     <div class="project-entry">
