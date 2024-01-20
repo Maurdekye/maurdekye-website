@@ -12,8 +12,8 @@
 				!Array.isArray(highlighting?.keywords) &&
 				Array.isArray(highlighting?.keywords.keyword)
 			) {
-                // monkey-patch `sealed` and `with` into the list of 
-                // valid keywords for syntax highlighting
+				// monkey-patch `sealed` and `with` into the list of
+				// valid keywords for syntax highlighting
 				highlighting?.keywords?.keyword.push('sealed');
 				highlighting?.keywords?.keyword.push('with');
 			}
@@ -225,8 +225,10 @@ impl Abstract for ConcreteB {
 		<ul>
 			<li><p>They are always object safe (because we know what all their implementers are)</p></li>
 			<li>
-				They can be pattern matched on, since we have access to a definitive, exhaustive list of
-				every concrete type that implements them
+				<p>
+					They can be pattern matched on, since we have access to a definitive, exhaustive list of
+					every concrete type that implements them
+				</p>
 			</li>
 		</ul>
 		<p>
@@ -498,8 +500,8 @@ impl<T> T where T: AbstractA + AbstractB {
 			In theory, one could imagine replacing enums entirely with sealed traits in this way. I'm not
 			sure if that's actually a good idea, or even practical, but it's a fun thought experiment.
 		</p>
-        
-        <div class="space" />
+
+		<div class="space" />
 	</content>
 </section>
 
@@ -521,9 +523,9 @@ impl<T> T where T: AbstractA + AbstractB {
 		margin: 5em 0;
 	}
 
-    .space {
-        height: 10em;
-    }
+	.space {
+		height: 10em;
+	}
 
 	note {
 		font-style: italic;
