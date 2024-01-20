@@ -1,7 +1,12 @@
 <script>
 	import SocialLinks from './SocialLinks.svelte';
-import './styles.css';
+	import './styles.css';
 </script>
+
+<svelte:head>
+	<title>Maurdekye.com</title>
+	<meta name="description" content="I'm Maurdekye; this is my website" />
+</svelte:head>
 
 <div class="app">
 	<SocialLinks />

@@ -1,5 +1,6 @@
 <script>
 	import TitleCard from './TitleCard.svelte';
+	import Articles from './Articles.svelte';
 	import WorkExperience from './WorkExperience.svelte';
 	import ToolExperience from './ToolExperience.svelte';
 	import PersonalProjects from './PersonalProjects.svelte';
@@ -15,6 +16,8 @@
 
 	<hr class="rule" />
 
+	<Articles />
+
 	<div class="experience">
 		<WorkExperience />
 		<div class="vrule experience-separator"></div>
@@ -26,7 +29,6 @@
 	<PersonalProjects />
 
 	<hr class="rule" />
-
 </section>
 
 <style>
